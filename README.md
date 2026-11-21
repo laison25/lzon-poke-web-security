@@ -15,7 +15,9 @@ Giữ cửa sổ này mở và truy cập [http://127.0.0.1:3000](http://127.0.0
 
 Máy chủ Node.js phục vụ giao diện tại `public/`. Chạy `node server.mjs` để dùng bản đồ án.
 
-Đăng ký trên trang web để tạo tài khoản thành viên. Để có tài khoản quản trị, mở một cửa sổ **PowerShell 7** khác tại cùng thư mục và chạy lệnh sau. Nhập mật khẩu do bạn chọn khi được hỏi, với độ dài 15–128 ký tự.
+Đăng ký trên trang web để tạo tài khoản thành viên. Để thử bằng 10 tài khoản có sẵn, chạy `node seed-demo.mjs` trong thư mục dự án rồi lấy email và mật khẩu từ [file tài khoản thành viên demo](demo/tai-khoan-thanh-vien.txt). Chỉ dùng các tài khoản này với dữ liệu demo cục bộ.
+
+Để có tài khoản quản trị, mở một cửa sổ **PowerShell 7** khác tại cùng thư mục và chạy lệnh sau. Nhập mật khẩu do bạn chọn khi được hỏi, với độ dài 15–128 ký tự.
 
 ```powershell
 $OutputEncoding = [System.Text.UTF8Encoding]::new($false)
